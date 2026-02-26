@@ -1,0 +1,23 @@
+name: GTBiOS
+options:
+  bundleIdPrefix: com.gtb
+  deploymentTarget:
+    iOS: "15.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    TARGETED_DEVICE_FAMILY: "1"
+    INFOPLIST_FILE: GTBiOS/Info.plist
+targets:
+  GTBiOS:
+    type: application
+    platform: iOS
+    sources:
+      - GTBiOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.gtb.ios
+        INFOPLIST_FILE: GTBiOS/Info.plist
+        DEVELOPMENT_TEAM: ""
