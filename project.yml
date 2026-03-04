@@ -3,7 +3,7 @@ options:
   bundleIdPrefix: com.gtb
   deploymentTarget:
     iOS: "15.0"
-  xcodeVersion: "15.0"
+  xcodeVersion: "14.2"
   generateEmptyDirectories: true
 settings:
   base:
@@ -21,3 +21,4 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.gtb.ios
         INFOPLIST_FILE: GTBiOS/Info.plist
         DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
